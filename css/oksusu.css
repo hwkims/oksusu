@@ -1,0 +1,417 @@
+/*웹폰트-뫼비우스폰트*/
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('../font/MoebiusKorea-Bold.woff2') format('woff2'),
+        url('../font/MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*상단영역*/
+#top_wrap {
+    width: 100%;
+    height: 50px;
+    background: #333;
+}
+
+#top {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+
+    margin: 0 auto;
+}
+
+#top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top p.notice {
+    padding-left: 40px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p.notice span {
+    padding-left: 30px;
+
+    color: #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top p.event {
+    padding-left: 650px;
+}
+
+#top p a {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p:hover a {
+    color: #aaa;
+}
+
+#top p.line {
+    width: 1px;
+    height: 10px;
+    background: #aaa;
+    margin: 0 5px;
+}
+
+/*로고영역*/
+#logo_wrap {
+    width: 100%;
+    height: 80px;
+    background: #ffd600;
+}
+
+#logo {
+    width: 1200px;
+    height: 80px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*메뉴영역*/
+#nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav p a {
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-family: 'Moebius Korea';
+
+    margin: 0 60px;
+}
+
+#nav p:hover a {
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+/*공통상단영역 끝*/
+
+/*메인이미지*/
+#main {
+    width: 1200px;
+    height: 430px;
+    background: url(../images/main_bg.jpg);
+    margin: 0 auto;
+}
+
+#main p {
+    padding-top: 190px;
+    padding-left: 720px;
+
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: -2px;
+}
+
+#main h2 {
+    padding-top: 20px;
+    padding-left: 720px;
+
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: -4px;
+}
+
+/*중앙아이콘배너*/
+#center {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#center div.btn {
+    width: 100px;
+    height: 100px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 15px 30px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#center div.btn p {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#center div.btn:hover p {
+    color: #ffd600;
+}
+
+#center div.btn p.icon2 {
+    width: 70px;
+    height: 70px;
+    background: url(../images/center_icon2.jpg);
+
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#center div.btn p.icon2:hover {
+    background: url(../images/center_icon2_r.jpg);
+}
+
+/*투데이 옥수수*/
+#section {
+    width: 1200px;
+    height: 410px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section h4 {
+    padding-top: 40px;
+    padding-left: 100px;
+
+    color: #333;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: 'Moebius Korea';
+
+    text-align: left;
+}
+
+#section div.banner {
+    width: 330px;
+    height: 245px;
+    background: #333 url(../images/box_icon_bg.jpg)no-repeat 280px 200px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 40px 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#section div.banner p.txt {
+    padding-top: 5px;
+    padding-left: 20px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#section div.banner p.txt span {
+    font-size: 14px;
+}
+
+/*신상 카카오 이모티콘 배너*/
+#banner_wrap {
+    width: 100%;
+    height: 190px;
+    background: #ffc300;
+}
+
+#banner {
+    width: 1200px;
+    height: 190px;
+    background: url(../images/banner_bg.jpg);
+    margin: 50px auto;
+    text-align: center;
+}
+
+#banner h3 {
+    padding-top: 35px;
+    color: #555;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-family: 'Moebius Korea';
+
+}
+
+#banner h3 span {
+    color: #333;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+#banner p.btn {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #555;
+    margin: 15px auto;
+
+    line-height: 40px;
+    color: #555;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/*하단영역*/
+#down {
+    width: 1200px;
+    height: 680px;
+    background: url(../images/down_bg.jpg)no-repeat 750px 70px;
+    margin: 0 auto;
+}
+
+#down p.txt1 {
+    padding: 110px 0 0 110px;
+    /*위 오른쪽 아래 왼쪽*/
+
+    color: #aaa;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-family: 'Moebius Korea';
+}
+
+#down h2 {
+    padding: 30px 0 0 110px;
+
+    color: #333;
+    font-size: 42px;
+    letter-spacing: -2px;
+    font-family: 'Moebius Korea';
+
+}
+
+#down div.btn_wrap {
+    width: 500px;
+    height: 70px;
+
+    margin: 30px 0 0 110px;
+
+
+}
+
+#down div.btn_wrap p {
+    width: 240px;
+    height: 70px;
+    background: #000;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#down div.btn_wrap p.btn2 {
+    margin-left: 10px;
+}
+
+#down h4 {
+    padding: 50px 0 0 110px;
+    color: #aaa;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#down p.txt2 {
+    padding: 10px 0 0 115px;
+    color: #aaa;
+    font-size: 16px;
+    letter-spacing: -1px;
+
+    line-height: 2;
+}
+
+/*공통하단영역 시작*/
+/*카피라이트*/
+#copyright_wrap {
+    width: 100%;
+    height: 260px;
+    background: url(../images/copyright_bg.jpg);
+}
+
+#copyright {
+    width: 1200px;
+    height: 260px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#copyright div.notice {
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+#copyright div.notice p {
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px 0 0 30px;
+}
+
+#copyright p.menu a {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu:hover a {
+    color: #fff;
+}
+
+#copyright h5 {
+    padding: 20px 0 0 30px;
+
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}

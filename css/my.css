@@ -1,0 +1,430 @@
+/*웹폰트-뫼비우스폰트*/
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('../font/MoebiusKorea-Bold.woff2') format('woff2'),
+        url('../font/MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*웹폰트-배달의민족 도현체*/
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*블릿기호 제거*/
+
+img {
+    vertical-align: middle;
+}
+
+/*상단영역*/
+#top_wrap {
+    width: 100%;
+    height: 50px;
+    background: #333;
+}
+
+#top {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+
+    margin: 0 auto;
+}
+
+#top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top p.notice {
+    padding-left: 40px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p.notice span {
+    padding-left: 30px;
+
+    color: #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top p.event {
+    padding-left: 650px;
+}
+
+#top p a {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p:hover a {
+    color: #aaa;
+}
+
+#top p.line {
+    width: 1px;
+    height: 10px;
+    background: #aaa;
+    margin: 0 5px;
+}
+
+/*로고영역*/
+#logo_wrap {
+    width: 100%;
+    height: 80px;
+    background: #ffd600;
+}
+
+#logo {
+    width: 1200px;
+    height: 80px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*메뉴영역*/
+#nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav p a {
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-family: 'Moebius Korea';
+
+    margin: 0 60px;
+}
+
+#nav p:hover a {
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+/*공통상단영역 끝*/
+
+
+
+/*my옥수수 영역*/
+/*상단영역*/
+#mytop {
+    width: 650px; height: 180px;
+    background: url(../images/top_bg.jpg);
+    margin: 0 auto;
+    text-align: center;
+}
+#mytop h2 {
+    padding-top: 30px;
+    color:#fff; font-size: 48px;
+    letter-spacing: -2px;
+    font-family: 'BMDOHYEON';
+    font-weight: normal;
+}
+#mytop p.line {
+    width: 280px; height: 1px;
+    background: #fff;
+
+    margin: 15px auto;
+}
+#mytop p.txt {
+    font-family: 'BMDOHYEON';
+    color:#fff;
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+
+/*메인이미지*/
+#main {
+    width: 650px; height: 563px;
+    margin: 0 auto;
+}
+
+/*유료 옥수수 포인트*/
+#info1 {
+    width: 650px; height: 150px;
+    background: #ffc300 url(../images/banner_txt_linebg.png) no-repeat 130px 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+#info1 p {
+    padding-top: 40px;
+
+    color:#735a18;
+    font-size: 24px;
+    letter-spacing: -2px;
+}
+#info1 p span {
+    font-weight: bold;
+}
+
+/*신상 카카오 이모티콘*/
+#info2 {
+    width: 650px; height: 240px;
+    background: #ffc300;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#info2 p.line {
+    width: 540px;
+    height: 1px;
+    background: #dfb201;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+#info2 p.txt {
+    padding-top: 30px;
+
+    color:#231f20;
+    font-size: 26px;
+    font-family: 'BMDOHYEON';
+    letter-spacing: -1px;
+
+}
+#info2 h2 {
+    padding-top: 10px;
+
+    color:#6edbfc;
+    font-size: 58px;
+    letter-spacing: -3px;
+    font-family: 'BMDOHYEON';
+    font-weight: normal;
+    text-shadow: 5px 5px 1px #222;
+    /*x방향 y방향 그림자흐림정도 색상*/
+}
+#info2 h4 {
+    padding-top: 10px;
+
+    color:#725a1a;
+    font-size: 20px;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+/*애니메이션 배너*/
+#ani_banner {
+    width: 650px; height: 336px;
+    margin: 0 auto;
+}
+/*문화혜택 제목*/
+#section1 {
+    width: 650px; height: 130px;
+    background: #ffd200;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 130px;
+
+}
+#section1 p {
+    color:#fff;
+    font-size: 46px;
+    font-family: 'BMDOHYEON';
+    letter-spacing: -2px;
+    text-shadow: 5px 5px 1px #222;
+
+}
+#section1 p span {
+    color:#a0ea01;
+}
+
+/*문화혜택 배너*/
+#section2 {
+    width: 650px; height: 400px;
+    background: #ffd200;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+#section2 div.box {
+    width: 570px; height: 150px;
+    background: #fff;
+    text-align: center;
+
+    border-radius: 80px;
+
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#section2 div.box div {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 20px 10px;
+
+}
+#section2 div.box div.left {
+    width: 110px; height: 110px;
+    background: yellow;
+
+    border-radius: 50%; /*원모양만들기*/
+}
+
+#section2 div.box div.right {
+    width: 370px; height: 110px;
+    background: #fff;
+    text-align: left;
+}
+
+#section2 div.box div.right h2 {
+    padding-left: 10px;
+
+    color:#333; font-size: 30px;
+    letter-spacing: -1px; font-weight: bold;
+}
+#section2 div.box div.right p {
+    padding-left: 10px;
+    padding-top: 20px;
+
+    color:#666; font-size: 18px;
+    letter-spacing: -1px; font-weight: normal;
+}
+
+/*혜택확인 글자*/
+#section3 {
+    width: 650px; height: 80px;
+    background: linear-gradient(to right, #ffd302, #ffefa2);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+    
+}
+
+#section3 p {
+    color:#222; font-size: 30px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+/*하단영역*/
+#down {
+    width: 650px; height: 180px;
+    background: #ffd200;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#down p.btn {
+    width: 280px; height: 80px;
+    background: #222; color:#fff;
+    border-radius: 50px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 50px 10px;
+    line-height: 80px;
+
+    font-size: 32px; letter-spacing: -3px;
+    font-weight: bold;
+    border:2px solid #222;
+
+    cursor: pointer;
+}
+#down p.btn:hover {
+    border:2px solid #222;
+    background: transparent;
+    color:#222;
+}
+
+
+
+
+/*공통하단영역 시작*/
+/*카피라이트*/
+#copyright_wrap {
+    width: 100%;
+    height: 260px;
+    background: url(../images/copyright_bg.jpg);
+}
+
+#copyright {
+    width: 1200px;
+    height: 260px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#copyright div.notice {
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#copyright div.notice p {
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px 0 0 30px;
+}
+
+#copyright p.menu a {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu:hover a {
+    color: #fff;
+}
+
+#copyright h5 {
+    padding: 20px 0 0 30px;
+
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}

@@ -1,0 +1,338 @@
+/*웹폰트-뫼비우스폰트*/
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('../font/MoebiusKorea-Bold.woff2') format('woff2'),
+        url('../font/MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*상단영역*/
+#top_wrap {
+    width: 100%;
+    height: 50px;
+    background: #333;
+}
+
+#top {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+
+    margin: 0 auto;
+}
+
+#top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top p.notice {
+    padding-left: 40px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p.notice span {
+    padding-left: 30px;
+
+    color: #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top p.event {
+    padding-left: 650px;
+}
+
+#top p a {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p:hover a {
+    color: #aaa;
+}
+
+#top p.line {
+    width: 1px;
+    height: 10px;
+    background: #aaa;
+    margin: 0 5px;
+}
+
+/*로고영역*/
+#logo_wrap {
+    width: 100%;
+    height: 80px;
+    background: #ffd600;
+}
+
+#logo {
+    width: 1200px;
+    height: 80px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*메뉴영역*/
+#nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav p a {
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-family: 'Moebius Korea';
+
+    margin: 0 60px;
+}
+
+#nav p:hover a {
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+/*공통상단영역 끝*/
+
+/*vod 영역*/
+#vod_section1 {
+    width: 1200px; height: 84px;
+    background: url(../images/vod_top_bg.jpg);
+    line-height: 84px;
+    margin: 0 auto;
+    
+}
+#vod_section1 p {
+    display: inline-block;
+    vertical-align: middle;
+}
+#vod_section1 p.txt {
+    padding-left: 180px;
+
+    color:#eee; font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#vod_section1 p.txt span {
+    color:#666; font-size: 13px;
+    padding-left: 10px;
+}
+
+#vod_section1 p.btn {
+    width: 85px; height: 30px;
+    border: 1px solid #555;
+    line-height: 30px;
+    text-align: center;
+
+    color:#fff; font-size: 13px;
+    letter-spacing: -1px;
+
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+/*2번*/
+#vod_section2 {
+    width: 1200px; height: 100px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+#vod_section2 ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+#vod_section2 ul li.line {
+    width: 2px; height: 10px;
+    background: #999;
+
+    margin: 0 10px;
+}
+#vod_section2 ul li.txt a {
+    color:#888;
+    font-size: 18px;
+    font-weight: bold;
+}
+#vod_section2 ul li.txt:hover a {
+    color:#000;
+}
+#vod_section2 ul li.high a {
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* #vod_section2 p {
+    display: inline-block;
+    vertical-align: middle;
+}
+#vod_section2 p.line {
+    width: 1px; height: 10px;
+    background: red;
+
+    margin: 0 10px;
+
+} */
+
+
+/*3번*/
+#vod_section3 {
+    width: 1200px; height: 40px;
+    background: white;
+    margin: 0 auto;
+    text-align: right;
+    line-height: 40px;
+}
+
+#vod_section3 p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#vod_section3 p.line {
+    width: 1px; height: 10px;
+    background: #999;
+
+    margin: 0 10px;
+}
+
+#vod_section3 p.txt {
+    color:#888;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#vod_section3 p.txt:hover {
+    color:#000;
+    cursor: pointer;
+}
+#vod_section3 p.high {
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#vod_section3 span {
+    padding-right: 100px;
+}
+
+
+/*4번*/
+#vod_section4 {
+    width: 1200px; height: 1100px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#vod_section4 ul li {
+    width: 200px; height: 320px;
+    background: white;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 20px 10px;
+    text-align: left;
+}
+
+#vod_section4 ul li p.txt {
+    padding: 10px 0 0 10px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #333;
+}
+#vod_section4 img:hover{
+    transform: scale(1.1);
+}
+
+/*공통하단영역 시작*/
+/*카피라이트*/
+#copyright_wrap {
+    width: 100%;
+    height: 260px;
+    background: url(../images/copyright_bg.jpg);
+}
+
+#copyright {
+    width: 1200px;
+    height: 260px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#copyright div.notice {
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+#copyright div.notice p {
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px 0 0 30px;
+}
+
+#copyright p.menu a {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu:hover a {
+    color: #fff;
+}
+
+#copyright h5 {
+    padding: 20px 0 0 30px;
+
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}

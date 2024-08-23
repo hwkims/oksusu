@@ -1,0 +1,487 @@
+/*웹폰트-뫼비우스폰트*/
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('../font/MoebiusKorea-Bold.woff2') format('woff2'),
+        url('../font/MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*블릿기호 제거*/
+
+img {
+    vertical-align: middle;
+}
+
+/*상단영역*/
+#top_wrap {
+    width: 100%;
+    height: 50px;
+    background: #333;
+}
+
+#top {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+
+    margin: 0 auto;
+}
+
+#top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top p.notice {
+    padding-left: 40px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p.notice span {
+    padding-left: 30px;
+
+    color: #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top p.event {
+    padding-left: 650px;
+}
+
+#top p a {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p:hover a {
+    color: #aaa;
+}
+
+#top p.line {
+    width: 1px;
+    height: 10px;
+    background: #aaa;
+    margin: 0 5px;
+}
+
+/*로고영역*/
+#logo_wrap {
+    width: 100%;
+    height: 80px;
+    background: #ffd600;
+}
+
+#logo {
+    width: 1200px;
+    height: 80px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*메뉴영역*/
+#nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav p a {
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-family: 'Moebius Korea';
+
+    margin: 0 60px;
+}
+
+#nav p:hover a {
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+/*공통상단영역 끝*/
+
+/*실시간tv 영역*/
+#live_section1 {
+    width: 1200px;
+    height: 700px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#live_section1 ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+#live_section1 ul li.left {
+    width: 420px;
+    height: 300px;
+    background: white;
+}
+
+#live_section1 ul li.left p.txt1 {
+    padding-top: 20px;
+
+    color: #666;
+    font-size: 32px;
+    letter-spacing: -3px;
+}
+
+#live_section1 ul li.left h2 {
+    color: #65b6f7;
+    font-size: 100px;
+ 
+    font-family: 'Moebius Korea';
+}
+
+#live_section1 ul li.left p.line {
+    width: 40px;
+    height: 1px;
+    background: #65b6f7;
+
+    margin: 20px auto;
+}
+
+#live_section1 ul li.left p.txt2 {
+    color: #999;
+    font-size: 24px;
+    letter-spacing: -2px;
+}
+
+
+
+#live_section1 ul li.right {
+    width: 582px;
+    height: 640px;
+}
+
+
+/*2번*/
+#live_section2 {
+    width: 1200px;
+    height: 700px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#live_section2 h2 {
+    padding-top: 130px;
+
+    color: #333;
+    font-size: 34px;
+    letter-spacing: -3px;
+    font-weight: normal;
+}
+
+#live_section2 h2 span {
+    background: #ffd600;
+    letter-spacing: 0;
+    font-family: 'Moebius Korea';
+}
+
+
+#live_section2 ul li {
+    width: 220px;
+    height: 260px;
+    background: white;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 50px 70px;
+}
+
+#live_section2 ul li p.txt {
+    padding-top: 5px;
+
+    color: #555;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+
+#live_section2 ul li p.txt span {
+    font-weight: bold;
+}
+
+#live_section2 p.btn {
+    width: 540px;
+    height: 90px;
+    background: #44a4f1 url(../images/live_btn_arrow.jpg) no-repeat 400px center;
+    margin: 0 auto;
+    border-radius: 50px;
+    line-height: 90px;
+
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -3px;
+    cursor: pointer;
+}
+
+#live_section2 p.btn:hover {
+    background: #44a4f1 url(../images/live_btn_arrow_r.jpg) no-repeat 420px center;
+    color: #ffd600;
+}
+
+/*3번*/
+#live_section3 {
+    width: 1200px;
+    height: 1300px;
+    background: #64aeeb;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#live_section3 p.event {
+    width: 235px;
+    height: 65px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: inline-block;
+
+    line-height: 65px;
+    border-radius: 50px;
+
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#live_section3 h2 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    color: #333;
+    font-size: 42px;
+    letter-spacing: -0px;
+    font-family: 'Moebius Korea';
+}
+
+#live_section3 h2 span {
+    color: #fff217;
+    border-bottom: 1px solid #fff217;
+    font-family: 'Moebius Korea';
+}
+
+
+
+#live_section3 ul {
+    margin: 20px 0;
+}
+
+#live_section3 ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#live_section3 ul li.left {
+    width: 115px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    line-height: 35px;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+#live_section3 ul li.right {
+    width: 450px;
+    height: 45px;
+ 
+    text-align: left;
+    line-height: 45px;
+
+    margin-left: 20px;
+
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+#live_section3 ul li.right span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#live_section3 ul.last li.right {
+    line-height: 1.3;
+    padding-top: 10px;
+}
+
+#live_section3 p.btn {
+    width: 680px;
+    height: 110px;
+    background: #000;
+
+    color: #fff;
+    margin: 60px auto;
+    line-height: 110px;
+    border-radius: 80px;
+
+    font-size: 30px;
+    letter-spacing:  px;
+    font-family: 'Moebius Korea';
+    cursor: pointer;
+}
+
+/*4번*/
+#live_section4 {
+    width: 1200px;
+    height: 340px;
+    background: #3b7eb5;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#live_section4 p {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px 10px;
+}
+
+#live_section4 h4 {
+    padding-top: 80px;
+
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Moebius Korea';
+    font-weight: 400;
+}
+
+
+/*5번*/
+#live_section5 {
+    width: 1200px;
+    height: 450px;
+    background: white;
+    margin: 0 auto;
+}
+
+#live_section5 h2 {
+    padding: 80px 0 0 260px;
+
+    color: #333;
+    font-size: 32px;
+    letter-spacing: -3px;
+    font-weight: normal;
+}
+
+#live_section5 h2 span {
+    color: #347cb6;
+}
+
+#live_section5 p.txt {
+    padding: 20px 0 0 260px;
+
+    color: #666;
+    font-size: 22px;
+    letter-spacing: -2px;
+}
+
+#live_section5 p.txt span {
+    padding-left: 12px;
+}
+
+
+/*공통하단영역 시작*/
+/*카피라이트*/
+#copyright_wrap {
+    width: 100%;
+    height: 260px;
+    background: url(../images/copyright_bg.jpg);
+}
+
+#copyright {
+    width: 1200px;
+    height: 260px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#copyright div.notice {
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#copyright div.notice p {
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px 0 0 30px;
+}
+
+#copyright p.menu a {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu:hover a {
+    color: #fff;
+}
+
+#copyright h5 {
+    padding: 20px 0 0 30px;
+
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}

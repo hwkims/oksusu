@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('MoebiusKorea-Bold.woff2') format('woff2'),
+        url('MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('MoebiusKorea-Regular.woff2') format('woff2'),
+        url('MoebiusKorea-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
